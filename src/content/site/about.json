@@ -1,0 +1,48 @@
+{
+  "title": "About",
+  "intro": {
+    "greeting": "Hi, I'm Yukti.",
+    "description": "I'm a neuroscientist passionate about understanding how our brains create consciousness, store memories, and shape our perception of reality."
+  },
+  "sections": [
+    {
+      "title": "Research Focus",
+      "content": "My work centers on computational cognitive neuroscience, specifically investigating working memory mechanisms through EEG analysis and mathematical modeling. I'm fascinated by how the brain maintains and manipulates information in real-time, and how these processes break down in various neurological conditions."
+    },
+    {
+      "title": "Science Communication",
+      "content": "Beyond the lab, I'm committed to making neuroscience accessible to everyone. Through writing, speaking, and digital content creation, I translate complex research into practical insights that can improve daily life."
+    },
+    {
+      "title": "Holistic Approach",
+      "content": "I believe in bridging ancient wisdom with modern science. My exploration of Ayurveda and traditional medicine complements my neuroscience research, offering a more complete understanding of human health and consciousness."
+    }
+  ],
+  "education": {
+    "title": "Education",
+    "degrees": [
+      {
+        "degree": "PhD in Neuroscience",
+        "institution": "SISSA (International School for Advanced Studies), Trieste, Italy",
+        "year": "2021-2024",
+        "details": "Studying adaptability of Perceptual Working Memory and Neural Correlates. Supervisor: Prof. Mathew Diamond"
+      },
+      {
+        "degree": "Bachelor of Technology",
+        "institution": "Cluster Innovation Center, University of Delhi",
+        "year": "2014-2018",
+        "details": "IT and Mathematical Innovation, GPA: 8.2/10"
+      }
+    ]
+  },
+  "interests": {
+    "title": "Beyond Science",
+    "items": [
+      "Practicing and studying Ayurveda",
+      "Science writing and communication",
+      "Building educational tools",
+      "Exploring consciousness through meditation",
+      "Evidence-based approaches to longevity"
+    ]
+  }
+}

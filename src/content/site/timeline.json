@@ -1,0 +1,132 @@
+{
+  "timeline": [
+    {
+      "year": "2025",
+      "entries": [
+        {
+          "date": "Now",
+          "title": "Researcher, SENSExLab SISSA, Italy",
+          "type": "milestone",
+          "link": "https://sites.google.com/view/sensexlab/home?authuser=0"
+        },
+        {
+          "date": "Now",
+          "title": "Head of Digital engagement and Socials, Thinking About Thinking,Inc.",
+          "type": "milestone"
+        },
+        {
+          "date": "Jun",
+          "title": "PhD in Neuroscience from SISSA",
+          "type": "milestone"
+        },
+        {
+          "date": "May",
+          "title": "Neuromonster 2025, Split, Croatia",
+          "type": "research"
+        },
+        {
+          "date": "Apr",
+          "title": "Finalist - FameLab,2025",
+          "type": "milestone",
+          "link":  "https://www.youtube.com/watch?v=uUuWFTvqeqI"
+        },       
+        {
+          "date": "Feb",
+          "title": "Talk at SISSA Open Day",
+          "type": "milestone"
+        }
+
+      ]
+    },
+    {
+      "year": "2024",
+      "entries": [
+        {
+          "date": "Oct",
+          "title": "Society for Neuroscience, Chicago",
+          "type": "research"
+        },
+        {
+          "date": "Jun",
+          "title": "Visiting Researcher at NeuroSpin, INSERM (ERASMUS)",
+          "type": "research collab"
+        },
+
+        {
+          "date": "May",
+          "title": "Published: Diverse perceptual biases emerge from Hebbian plasticity",
+          "type": "writing",
+          "link": "https://doi.org/10.1101/2024.05.30.596641"
+        }
+
+      ]
+    },
+    {
+      "year": "2023",
+      "entries": [
+        {
+          "date": "Sep",
+          "title": "Presented at ESCBC Lisbon",
+          "type": "research"
+        },
+        {
+          "date": "Sep",
+          "title": "Presented at Bernstein Conference, Berlin",
+          "type": "research"
+        },
+        {
+          "date": "Jul",
+          "title": "Experimental Neuroscience Bootcamp, Cajal",
+          "type": "milestone"
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "entries": [
+        {
+          "date": "Jan",
+          "title": "Started PhD at SISSA, Trieste",
+          "type": "milestone"
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "entries": [
+        {
+          "date": "Aug",
+          "title": "Research Assistant at NANOORG Lab, IISc,Bangalore",
+          "type": "research"
+        },
+        {
+          "date": "Jul",
+          "title": "Computational Neuroscience Course, Neuromatch",
+          "type": "milestone"
+        },
+        {
+          "date": "Mar",
+          "title": "Published: Differential scaling of synaptic molecules",
+          "type": "writing",
+          "link": "https://doi.org/10.1523/ENEURO.0407-19.2020"
+        }
+      ]
+    },
+    {
+      "year": "2018",
+      "entries": [
+        {
+          "date": "Jul",
+          "title": "B.Tech from University of Delhi (GPA 8.2/10)",
+          "type": "milestone"
+        },
+        {
+          "date": "Jun",
+          "title": "Data Science Intern at IBM Research Lab",
+          "type": "project"
+        }
+      ]
+    }
+    
+  ]
+}

@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Logo-inspired color palette */
+    --navy: #1a4d8f;           /* Primary navy - more blue, better contrast with gray */
+    --navy-dark: #0f3461;      /* Darker navy for hover */
+    --navy-light: #2e6bb4;     /* Lighter navy */
+    --navy-pale: #e8eef4;      /* Very light navy for backgrounds */
+    
+    /* Neutral colors */
+    --black: #000000;
+    --dark-gray: #333333;
+    --medium-gray: #666666;
+    --light-gray: #999999;
+    --lighter-gray: #e0e0e0;
+    --off-white: #f9f9f8;      /* Logo background color */
+    --white: #ffffff;
+    
+    /* Typography */
+    --font-ink: 'Special Elite', 'Courier New', monospace;
+    --font-typewriter: 'Special Elite', 'Courier New', monospace;
+    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    --font-mono: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+  }
+
+  /* Minimal base styles */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: var(--font-ink);
+    color: var(--navy);
+    background: #f9f9f8;
+    line-height: 1.6;
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
+  }
+  
+  /* Minimal link styles */
+  a {
+    font-family: var(--font-typewriter);
+    color: var(--navy);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: var(--navy-light);
+  }
+  
+  /* Clean typography */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-typewriter);
+    font-weight: 400;
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  /* Minimalist components */
+  * {
+    font-family: var(--font-ink) !important;
+  }
+  
+  .container-narrow {
+    @apply max-w-2xl mx-auto px-6;
+  }
+  
+  /* Glass button style */
+  .glass-button {
+    background-color: rgba(30, 58, 95, 0.7);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(30, 58, 95, 0.3);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .glass-button:hover {
+    background-color: rgba(30, 58, 95, 0.85);
+    transform: translateY(-1px);
+  }
+  
+  .text-muted {
+    color: var(--medium-gray);
+  }
+  
+  .border-light {
+    border-color: var(--lighter-gray);
+  }
+  
+  .hover-underline {
+    position: relative;
+  }
+  
+  .hover-underline::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--navy);
+    transition: width 0.3s ease;
+  }
+  
+  .hover-underline:hover::after {
+    width: 100%;
+  }
+  
+  /* Simple divider */
+  .divider {
+    height: 1px;
+    background: var(--lighter-gray);
+    margin: 2rem 0;
+  }
+  
+  /* Logo styles */
+  .logo-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .logo-image {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .logo-image:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+  
+  /* Tooltip animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .tooltip-fade {
+    animation: fadeIn 0.2s ease-in-out;
+  }
+}
+
+@layer utilities {
+  /* Consistent typography scale */
+  .text-xs {
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+  
+  .text-base {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+  
+  .tracking-tight {
+    letter-spacing: -0.025em;
+  }
+  
+  .tracking-wide {
+    letter-spacing: 0.025em;
+  }
+}
+
+.prose img {
+  border-radius: 0.5rem;
+}

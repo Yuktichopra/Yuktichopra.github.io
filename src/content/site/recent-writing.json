@@ -1,0 +1,27 @@
+{
+  "title": "Recent Writing",
+  "viewAllText": "View all →",
+  "articles": [
+    {
+      "title": "Understanding Working Memory: The Brain's Mental Workspace",
+      "summary": "Exploring how our brain temporarily holds and manipulates information.",
+      "date": "Jan 2025",
+      "readTime": "8 min",
+      "link": "/blog/understanding-working-memory"
+    },
+    {
+      "title": "Longevity Myths vs. Evidence: What Science Really Says",
+      "summary": "Separating fact from fiction in longevity science.",
+      "date": "Jan 2025",
+      "readTime": "10 min",
+      "link": "/blog/longevity-myths-vs-evidence"
+    },
+    {
+      "title": "What EEG Reveals About Thinking",
+      "summary": "How electroencephalography lets us peek into the brain's electrical conversations.",
+      "date": "Jan 2025",
+      "readTime": "7 min",
+      "link": "/blog/what-eeg-reveals-about-thinking"
+    }
+  ]
+}

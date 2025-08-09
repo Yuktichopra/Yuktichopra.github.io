@@ -1,0 +1,103 @@
+{
+  "Neuroscience Science Communicators": [
+    {
+      "title": "Elodie Chabrol",
+      "url": "http://elodiechabrol.com",
+      "oneLiner": "Ex-researcher who founded Pint of Science festival."
+    },
+    {
+      "title": "Ben Rein, Ph.D.",
+      "url": "http://benrein.com",
+      "oneLiner": "Neuroscientist focusing on social interactions."
+    },
+    {
+      "title": "Ginny Smith",
+      "url": "http://ginnysmithscience.com",
+      "oneLiner": "Multi-platform neuroscience communicator."
+    }
+  ],
+  "Behavioral Science & Economics Freelancers": [
+    {
+      "title": "Dan Ariely",
+      "url": "http://danariely.com",
+      "oneLiner": "Leading behavioral economist."
+    },
+    {
+      "title": "Christina Gravert",
+      "url": "http://christinagravert.com",
+      "oneLiner": "Academic-consultant hybrid."
+    }
+  ],
+  "Health & Longevity Science Writers": [
+    {
+      "title": "Sophie O. Okolo",
+      "url": "https://www.linkedin.com/in/sophieaokolo",
+      "oneLiner": "10+ years aging/longevity expertise."
+    },
+    {
+      "title": "Kat Gal Writer",
+      "url": "http://katgalwriter.com",
+      "oneLiner": "Holistic health specialist."
+    }
+  ],
+  "Academic-to-Freelance Transition Examples": [
+    {
+      "title": "Bowler Hat Science",
+      "url": "http://bowlerhatscience.org",
+      "oneLiner": "Clean portfolio approach."
+    },
+    {
+      "title": "Science Writer Space",
+      "url": "http://sciencewriterspace.com",
+      "oneLiner": "Medical writing portfolio."
+    }
+  ],
+  "Behavioral Science Consultancies": [
+    {
+      "title": "BeHive Consulting",
+      "url": "http://behive.consulting",
+      "oneLiner": "Modern consultancy model."
+    },
+    {
+      "title": "The Decision Lab",
+      "url": "http://thedecisionlab.com",
+      "oneLiner": "Professional service presentation."
+    }
+  ],
+  "Science Communication Resources": [
+    {
+      "title": "The Open Notebook",
+      "url": "http://theopennotebook.com",
+      "oneLiner": "Essential writing resources."
+    },
+    {
+      "title": "Huberman Lab",
+      "url": "http://hubermanlab.com",
+      "oneLiner": "Popular neuroscience platform."
+    }
+  ],
+  "Academic Website Templates": [
+    {
+      "title": "Academic Pages",
+      "url": "https://github.com/academicpages/academicpages.github.io",
+      "oneLiner": "Free, professional GitHub template."
+    },
+    {
+      "title": "Quarto Academic Template",
+      "url": "https://quarto.org/docs/websites/website-academic.html",
+      "oneLiner": "Modern academic publishing template."
+    }
+  ],
+  "Working Memory Research Examples": [
+    {
+      "title": "Frontiers Research",
+      "url": "https://www.frontiersin.org/research-topics/12345/working-memory-training-studies",
+      "oneLiner": "Working memory training studies."
+    },
+    {
+      "title": "Nature Working Memory",
+      "url": "https://www.nature.com/subjects/working-memory",
+      "oneLiner": "Latest research compilation."
+    }
+  ]
+}

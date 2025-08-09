@@ -1,0 +1,107 @@
+{
+  "publications": [
+    {
+      "id": "chopra-2024-working-memory",
+      "title": "Neural Correlates of Working Memory Capacity: Evidence from High-Density EEG",
+      "authors": ["Chopra, Y.", "Miller, K.J.", "Zhang, L."],
+      "year": 2024,
+      "journal": "Journal of Cognitive Neuroscience",
+      "volume": 36,
+      "issue": 4,
+      "pages": "782-801",
+      "doi": "10.1162/jocn_a_12345",
+      "abstract": "Working memory capacity varies substantially across individuals, yet the neural mechanisms underlying these differences remain unclear. Using high-density EEG recordings during a visual working memory task, we identified distinct patterns of oscillatory activity that predict individual capacity limits. Our findings reveal that contralateral delay activity (CDA) amplitude scales with memory load up to individual capacity limits, while theta-gamma coupling strength correlates with behavioral performance.",
+      "keywords": ["working memory", "EEG", "individual differences", "CDA", "oscillations"],
+      "pdf": "/papers/chopra-2024-working-memory.pdf",
+      "code": "https://github.com/yuktichopra/wm-capacity-eeg",
+      "data": "https://osf.io/xxxxx",
+      "featured": true,
+      "citations": 12
+    },
+    {
+      "id": "chopra-2023-contraction-bias",
+      "title": "Contraction Bias in Working Memory: A Computational Account",
+      "authors": ["Chopra, Y.", "Anderson, B.A."],
+      "year": 2023,
+      "journal": "Psychological Review",
+      "volume": 130,
+      "issue": 6,
+      "pages": "1423-1445",
+      "doi": "10.1037/rev0000XXX",
+      "abstract": "Contraction bias—the tendency for memories to shift toward the average of previous stimuli—is a ubiquitous phenomenon in working memory. We present a computational model that explains contraction bias as an optimal strategy for a memory system operating under uncertainty. Using a Bayesian framework, we show how the brain might leverage statistical regularities in the environment to improve memory precision on average, even at the cost of systematic biases.",
+      "keywords": ["contraction bias", "computational modeling", "Bayesian inference", "working memory"],
+      "pdf": "/papers/chopra-2023-contraction-bias.pdf",
+      "code": "https://github.com/yuktichopra/contraction-bias-model",
+      "featured": true,
+      "citations": 28
+    },
+    {
+      "id": "chopra-2023-tau-models",
+      "title": "Symmetric and Asymmetric Tau Models of Decision Making Under Time Pressure",
+      "authors": ["Chopra, Y.", "Roberts, M.", "Chen, X."],
+      "year": 2023,
+      "journal": "Computational Brain & Behavior",
+      "volume": 6,
+      "issue": 2,
+      "pages": "234-251",
+      "doi": "10.1007/s42113-023-XXXXX",
+      "abstract": "Decision-making under time pressure reveals fundamental trade-offs between speed and accuracy. We compare symmetric and asymmetric tau (τ) models of evidence accumulation, finding that asymmetric models better account for individual differences in speed-accuracy trade-offs. Our results suggest that people adaptively adjust their decision criteria based on task demands and prior expectations.",
+      "keywords": ["decision making", "tau models", "speed-accuracy trade-off", "computational modeling"],
+      "pdf": "/papers/chopra-2023-tau-models.pdf",
+      "preprint": "https://psyarxiv.com/xxxxx",
+      "featured": false,
+      "citations": 8
+    },
+    {
+      "id": "miller-chopra-2022-glm",
+      "title": "Generalized Linear Models for Neural Data: A Practical Guide",
+      "authors": ["Miller, K.J.", "Chopra, Y.", "Park, S."],
+      "year": 2022,
+      "journal": "Journal of Neuroscience Methods",
+      "volume": 378,
+      "pages": "109-125",
+      "doi": "10.1016/j.jneumeth.2022.XXXXX",
+      "abstract": "Generalized Linear Models (GLMs) provide a powerful framework for analyzing neural data, yet their implementation remains challenging for many researchers. This tutorial paper provides practical guidance for applying GLMs to common neuroscience datasets, with a focus on EEG and behavioral data. We include code examples and discuss common pitfalls and their solutions.",
+      "keywords": ["GLM", "statistical methods", "EEG", "tutorial"],
+      "pdf": "/papers/miller-chopra-2022-glm.pdf",
+      "code": "https://github.com/neuroglm/tutorial",
+      "featured": false,
+      "citations": 45
+    }
+  ],
+  "conferences": [
+    {
+      "id": "cosyne-2024",
+      "title": "Population Dynamics of Working Memory Representations",
+      "authors": ["Chopra, Y.", "Zhang, L."],
+      "conference": "Computational and Systems Neuroscience (COSYNE)",
+      "year": 2024,
+      "type": "poster",
+      "abstract": "We present a novel analysis of population-level EEG dynamics during working memory maintenance, revealing traveling waves of activity that organize memory representations.",
+      "poster": "/posters/cosyne-2024-chopra.pdf"
+    },
+    {
+      "id": "sfn-2023",
+      "title": "Theta-Gamma Coupling Predicts Working Memory Performance",
+      "authors": ["Chopra, Y.", "Anderson, B.A.", "Miller, K.J."],
+      "conference": "Society for Neuroscience Annual Meeting",
+      "year": 2023,
+      "type": "poster",
+      "abstract": "Cross-frequency coupling between theta and gamma oscillations provides a mechanism for organizing multiple items in working memory. We show that individual differences in coupling strength predict behavioral performance.",
+      "poster": "/posters/sfn-2023-chopra.pdf"
+    }
+  ],
+  "preprints": [
+    {
+      "id": "chopra-2024-bci",
+      "title": "Real-time Decoding of Working Memory States Using Consumer-Grade EEG",
+      "authors": ["Chopra, Y.", "Liu, J.", "Thompson, R."],
+      "year": 2024,
+      "server": "bioRxiv",
+      "doi": "10.1101/2024.XXXXX",
+      "abstract": "We demonstrate that consumer-grade EEG devices can reliably decode working memory states in real-time, opening possibilities for accessible brain-computer interfaces. Using machine learning approaches, we achieve 75% accuracy in predicting memory load from 8-channel EEG data.",
+      "url": "https://www.biorxiv.org/content/xxxxx",
+      "status": "under review"
+    }
+  ]
+}

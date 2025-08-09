@@ -1,0 +1,166 @@
+{
+  "projects": [
+    {
+      "id": "thinking-about-thinking",
+      "title": "Thinking About Thinking",
+      "category": "nonprofit",
+      "description": "A nonprofit organization dedicated to making neuroscience accessible to everyone through events, workshops, and educational content.",
+      "longDescription": "Thinking About Thinking bridges the gap between cutting-edge neuroscience research and public understanding. We organize community events, create educational content, and foster discussions about the brain, consciousness, and human behavior. Our mission is to democratize neuroscience knowledge and inspire curiosity about how our minds work.",
+      "date": "2023-Present",
+      "status": "active",
+      "featured": true,
+      "image": "/images/projects/tat-logo.png",
+      "links": {
+        "website": "https://thinkingaboutthinking.org",
+        "instagram": "https://instagram.com/thinkingaboutthinking",
+        "newsletter": "https://thinkingaboutthinking.substack.com"
+      },
+      "highlights": [
+        "500+ community members engaged",
+        "Monthly neuroscience cafés and workshops",
+        "Collaboration with 20+ researchers and educators",
+        "Free educational resources reaching thousands"
+      ],
+      "technologies": ["Science Communication", "Event Planning", "Content Creation", "Community Building"],
+      "impact": "Making neuroscience accessible to diverse audiences, from students to seniors, fostering scientific literacy and critical thinking."
+    },
+    {
+      "id": "bci-investment-watch",
+      "title": "BCI Investment Watch",
+      "category": "content-series",
+      "description": "An ongoing analysis series tracking investments, trends, and developments in Brain-Computer Interface technology.",
+      "longDescription": "BCI Investment Watch provides comprehensive analysis of the rapidly evolving brain-computer interface industry. Through quarterly reports and deep dives, we track funding rounds, technological breakthroughs, regulatory developments, and market trends. This series helps investors, researchers, and enthusiasts understand the trajectory of neurotechnology.",
+      "date": "2024-Present",
+      "status": "active",
+      "featured": true,
+      "image": "/images/projects/bci-watch.png",
+      "links": {
+        "blog": "/blog/category/bci-investment-watch",
+        "newsletter": "/contact#newsletter",
+        "report": "/resources/bci-quarterly-report-2024-q4.pdf"
+      },
+      "highlights": [
+        "Quarterly industry reports with 1000+ subscribers",
+        "Analysis of $2B+ in BCI investments",
+        "Interviews with 15+ industry leaders",
+        "Referenced by major tech publications"
+      ],
+      "technologies": ["Market Analysis", "Data Visualization", "Technical Writing", "Industry Research"],
+      "impact": "Providing clarity in a complex and rapidly evolving field, helping stakeholders make informed decisions about neurotechnology."
+    },
+    {
+      "id": "neuro-curious-qa",
+      "title": "Neuro-Curious Q&A",
+      "category": "content-series",
+      "description": "A weekly series answering common and intriguing questions about the brain in an accessible, engaging format.",
+      "longDescription": "Neuro-Curious Q&A tackles questions like 'Why do we dream?', 'Can we upload consciousness?', and 'How does memory actually work?' Each piece combines rigorous science with clear explanations, making complex neuroscience concepts digestible for curious minds without a science background.",
+      "date": "2023-Present",
+      "status": "active",
+      "featured": false,
+      "image": "/images/projects/neuro-curious.png",
+      "links": {
+        "blog": "/blog/category/neuro-curious",
+        "instagram": "https://instagram.com/neurocurious_qa",
+        "youtube": "https://youtube.com/@neurocurious"
+      },
+      "highlights": [
+        "100+ questions answered",
+        "Average 5,000 reads per article",
+        "Featured in science communication newsletters",
+        "Used as educational resource in schools"
+      ],
+      "technologies": ["Science Writing", "Illustration", "Social Media", "SEO"],
+      "impact": "Fostering scientific curiosity and critical thinking by making neuroscience approachable and relevant to daily life."
+    },
+    {
+      "id": "working-memory-toolkit",
+      "title": "Working Memory Assessment Toolkit",
+      "category": "research",
+      "description": "Open-source Python toolkit for conducting working memory experiments and analyzing behavioral and EEG data.",
+      "longDescription": "This comprehensive toolkit provides researchers with standardized implementations of common working memory tasks (n-back, Sternberg, change detection), along with analysis pipelines for behavioral and EEG data. Built on PsychoPy and MNE-Python, it aims to improve reproducibility in working memory research.",
+      "date": "2023-2024",
+      "status": "completed",
+      "featured": false,
+      "image": "/images/projects/wm-toolkit.png",
+      "links": {
+        "github": "https://github.com/yuktichopra/wm-toolkit",
+        "documentation": "https://wm-toolkit.readthedocs.io",
+        "paper": "/research#chopra-2024-toolkit"
+      },
+      "highlights": [
+        "Used by 50+ research labs worldwide",
+        "1000+ downloads on PyPI",
+        "Comprehensive documentation and tutorials",
+        "Active community of contributors"
+      ],
+      "technologies": ["Python", "PsychoPy", "MNE-Python", "NumPy", "Git"],
+      "impact": "Standardizing working memory research methods and improving reproducibility across laboratories."
+    },
+    {
+      "id": "science-comm-workshop",
+      "title": "Science Communication Workshop Series",
+      "category": "educational",
+      "description": "Workshops teaching researchers how to effectively communicate their work to diverse audiences.",
+      "longDescription": "This workshop series helps scientists develop skills in writing for general audiences, creating engaging presentations, using social media effectively, and working with journalists. Participants learn to translate complex research into compelling narratives while maintaining scientific accuracy.",
+      "date": "2024",
+      "status": "active",
+      "featured": false,
+      "image": "/images/projects/scicomm-workshop.png",
+      "links": {
+        "registration": "/contact",
+        "materials": "/resources/scicomm-toolkit",
+        "testimonials": "/blog/scicomm-workshop-impact"
+      },
+      "highlights": [
+        "Trained 200+ researchers",
+        "95% participant satisfaction rate",
+        "Workshops at 5 universities",
+        "Created comprehensive resource library"
+      ],
+      "technologies": ["Workshop Design", "Public Speaking", "Digital Communication", "Curriculum Development"],
+      "impact": "Empowering scientists to share their work effectively, increasing public engagement with science."
+    },
+    {
+      "id": "longevity-evidence-base",
+      "title": "Longevity Evidence Base",
+      "category": "content-series",
+      "description": "A curated, regularly updated database of evidence-based longevity interventions with quality ratings.",
+      "longDescription": "The Longevity Evidence Base critically evaluates popular longevity interventions, from supplements to lifestyle changes, rating the quality of evidence and providing accessible summaries. Each entry includes mechanism of action, human studies, safety profile, and practical recommendations.",
+      "date": "2024-Present",
+      "status": "active",
+      "featured": false,
+      "image": "/images/projects/longevity-db.png",
+      "links": {
+        "database": "/resources/longevity-evidence",
+        "methodology": "/blog/longevity-evidence-methodology",
+        "updates": "/contact#newsletter"
+      },
+      "highlights": [
+        "150+ interventions evaluated",
+        "Monthly evidence updates",
+        "Collaboration with longevity researchers",
+        "Referenced by health professionals"
+      ],
+      "technologies": ["Evidence Synthesis", "Database Design", "Medical Writing", "Web Development"],
+      "impact": "Helping people make informed decisions about longevity interventions based on scientific evidence rather than hype."
+    }
+  ],
+  "categories": {
+    "nonprofit": {
+      "name": "Nonprofit Initiatives",
+      "description": "Community-focused projects aimed at education and outreach"
+    },
+    "research": {
+      "name": "Research Tools",
+      "description": "Scientific tools and resources for the research community"
+    },
+    "content-series": {
+      "name": "Content Series",
+      "description": "Ongoing educational and analytical content projects"
+    },
+    "educational": {
+      "name": "Educational Programs",
+      "description": "Workshops, courses, and training programs"
+    }
+  }
+}

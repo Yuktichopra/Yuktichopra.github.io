@@ -1,0 +1,31 @@
+export const siteConfig = {
+  name: "Yukti Chopra",
+  shortName: "YC",
+  tagline: "Neuroscientist | Science Communicator | PhD in Computational Cognitive Neuroscience",
+  description: "Exploring working memory, attention, and longevity through rigorous research and accessible science communication.",
+  url: "https://yuktichopra.com",
+  ogImage: "/og/og-default.png",
+  twitter: "https://twitter.com/yuktichopra",
+  linkedin: "https://linkedin.com/in/yuktichopra",
+  github: "https://github.com/yuktichopra",
+  author: {
+    name: "Yukti Chopra",
+    email: "yukti@yuktichopra.com",
+    title: "PhD, Computational Cognitive Neuroscience",
+    affiliation: "Thinking About Thinking",
+  },
+  nav: [
+    { label: "About", href: "/about" },
+    { label: "Research", href: "/research" },
+    { label: "Blog", href: "/blog" },
+    { label: "Projects", href: "/projects" },
+    { label: "Dosha Quiz", href: "/dosha" },
+    { label: "Resources", href: "/resources" },
+    { label: "Contact", href: "/contact" },
+  ],
+  categories: {
+    blog: ["Neuroscience", "Working Memory", "Longevity", "Science Communication", "AI & Neurotech"],
+    research: ["EEG Analysis", "Computational Modeling", "Psychophysics", "Working Memory"],
+    projects: ["Nonprofit", "Content Series", "Science Communication", "Educational"],
+  },
+};
