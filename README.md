@@ -18,7 +18,6 @@ npm run build
 npm start
 ```
 
-Visit `http://localhost:3000` to see the website.
 
 ## 📁 Project Structure
 
@@ -125,9 +124,8 @@ This is a personal website, but suggestions are welcome!
 
 ## 📮 Contact
 
-- Email: yukti@yuktichopra.com
-- Twitter: @yuktichopra
-- LinkedIn: linkedin.com/in/yuktichopra
+- Email: choprayukti9498@gmail.com
+- LinkedIn: linkedin.com/in/yukti-chopra
 
 ## 📜 License
 
