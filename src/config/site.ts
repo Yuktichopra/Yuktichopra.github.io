@@ -10,9 +10,9 @@ export const siteConfig = {
   github: "https://github.com/yuktichopra",
   author: {
     name: "Yukti Chopra",
-    email: "yukti@yuktichopra.com",
+    email: "choprayukti9498@gmail.com",
     title: "PhD, Computational Cognitive Neuroscience",
-    affiliation: "Thinking About Thinking",
+    affiliation: "SISSA",
   },
   nav: [
     { label: "About", href: "/about" },
